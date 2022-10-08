@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+$orange: #fd7e14;
+$font-family-base: 'Great Vibes', cursive;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.card {
+    @extend .card;
+    background-color: black;
+    color: white;
+}
+
+.bg-orange {
+    background-color: #fd7e14;
+}
+
+.text-orange {
+    color: #fd7e14;
+}
